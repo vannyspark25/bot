@@ -1,5 +1,5 @@
 {
-  "name": "CypherX",
+  "name": "VannySpark",
   "version": "1.9.4",
   "description": "The best Whatsapp bot",
   "main": "index.js",
@@ -9,12 +9,12 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon cypher.js",
+    "dev": "nodemon vannyspark.js",
     "stop": "pkill -f node",
     "restart": "pkill -f node && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "GoodnessTech",
+  "author": "VannySpark Tech",
   "dependencies": {
     "@whiskeysockets/baileys": "https://github.com/TristanCage/Bailey/archive/refs/tags/v6.7.3.tar.gz",
     "adm-zip": "^0.5.16",
