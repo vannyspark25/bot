@@ -1,4 +1,3 @@
-```json id="q1a7xv"
 {
   "name": "VannySpark",
   "description": "VannySpark, your friendly assistant!",
@@ -34,4 +33,3 @@
     { "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" }
   ]
 }
-```
