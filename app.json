@@ -1,7 +1,8 @@
+```json id="q1a7xv"
 {
-  "name": "CypherX",
-  "description": "CypherX, your friendly assistant!",
-  "repository": "https://github.com/Dark-Xploit/CypherX",
+  "name": "VannySpark",
+  "description": "VannySpark, your friendly assistant!",
+  "repository": "https://github.com/vannyspark25/VannySpark",
   "stack": "container",
 
   "formation": {
@@ -21,7 +22,7 @@
 
   "env": {
     "SESSION_ID": {
-      "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
+      "description": "Must begin with 'VANNYSPARK:~'.",
       "required": false
     }
   },
@@ -33,3 +34,4 @@
     { "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" }
   ]
 }
+```
