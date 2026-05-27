@@ -1,0 +1,35 @@
+{
+  "name": "CypherX",
+  "description": "CypherX, your friendly assistant!",
+  "repository": "https://github.com/Dark-Xploit/CypherX",
+  "stack": "container",
+
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  },
+
+  "addons": [
+    { "plan": "heroku-postgresql" }
+  ],
+
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Must begin with 'XPLOADER-BOT:~' or 'CYPHER-X:~'.",
+      "required": false
+    }
+  },
+
+  "buildpacks": [
+    { "url": "heroku/nodejs" },
+    { "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git" },
+    { "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest" },
+    { "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git" }
+  ]
+}
